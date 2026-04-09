@@ -1,0 +1,102 @@
+body{
+    background-image: url(../Pix/Stronger.jpg);
+    background-color: rgb(10, 33, 161);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+nav {
+  display: inline-block;
+  padding: 15px 20px;
+}
+nav a {
+  display: inline-block;
+  color: black;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+nav a:hover {
+  transition: 0.25s;
+  cursor: pointer;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.title{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    margin-top: 0;
+    margin-right: 400px;
+    padding: 10px;
+    font-size: 40px;
+}
+.request{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    margin-top: 40px;
+    margin-right: 400px;
+    padding: 10px;
+    font-size: 40px;
+}
+fieldset{
+    display: inline-block;
+    border-color: rgb(0, 0, 0);
+    border-style: none;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.49);
+    position: absolute;
+    left: 600px;
+    width: 700px;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+.DDlist{
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.TA{
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    margin-bottom: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 6px;
+    height: 25px;
+    width: 300px;
+}
+.sub-button{
+    display: block;
+    width: 110px;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 290px;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: rgb(10, 33, 161);
+    background-color: rgba(10, 33, 161, 0.044);
+    cursor: pointer;
+}
+.sub-button:hover{
+    transition: 0.25s;
+    background-color: rgb(10, 33, 161);
+    color: white;
+}

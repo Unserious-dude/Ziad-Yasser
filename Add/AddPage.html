@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="AddPage.css">
+        <title>Add Courses</title>
+    </head>
+    <body>
+    <section id="Prompts">
+        <h1 class="title">Personal Course Organiser</h1>
+        <nav>
+        <a href="../Home/Home.html">Home</a>
+        <a>My Courses</a>
+        <a href="AddPage.html">Add Courses</a>
+        <a href="../Contact/Contact.html">Contact us</a>
+        </nav>
+        <p class="request">-To add a course, please fill out the following form.</p>
+    </section>    
+        <form>
+            <fieldset>
+        <section id="Drop-down courses list">        
+                <label>Choose your course</label>
+                <select name="Courses" class="DDlist">
+                    <option value="" disabled selected>Courses</option>
+                    <option value="1">Subject-1</option>
+                    <option value="2">Subject-2</option>
+                    <option value="1">Subject-3</option>
+                    <option value="2">Subject-4</option>
+                    <option value="1">Subject-5</option>
+                </select>
+        </section>
+        <section id="TA name AND course level">
+                <p class="TA">Please enter the name of the TA</p>
+                <input type="text" placeholder="Enter name of instructor">
+                <p class="TA">Course level</p>
+                <select name="" class="DDlist">
+                    <option value="" disabled selected>Level</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+        </section>
+                <p class="TA">Enter your name</p>
+                <input type="text" placeholder="Name">
+                <p class="TA">Enter your student ID</p>
+                <input type="text" placeholder="Student ID">
+                <input type="submit" class="sub-button" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
