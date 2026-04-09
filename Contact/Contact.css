@@ -1,0 +1,80 @@
+body{
+    background-image: url(../Pix/Stronger.jpg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+nav {
+  display: inline-block;
+  padding: 15px 20px;
+}
+nav a {
+  display: inline-block;
+  color: black;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-right: 5px;
+  border-radius: 15px;
+}
+nav a:hover {
+  transition: 0.25s;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.title{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    margin-top: 0;
+    margin-right: 400px;
+    padding: 10px;
+    font-size: 40px;
+}
+.con{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+    font-size: 100px;
+    margin-left: 200px;
+}
+.phone{
+    display: inline-block;
+    color: white;
+    width: 67px;
+    margin-left: 100px;
+    vertical-align:bottom;
+}
+.num{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.mail{
+    display: inline-block;
+    color: white;
+    width: 67px;
+    margin-left: 400px;
+    vertical-align:bottom;
+}
+.email{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
