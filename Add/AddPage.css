@@ -109,3 +109,10 @@ input{
     background-color: rgb(10, 33, 161);
     color: white;
 }
+.credits{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    position: absolute;
+    top: 900px;
+    left: 850px;
+}

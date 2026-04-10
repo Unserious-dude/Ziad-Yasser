@@ -78,3 +78,10 @@ nav a:hover {
     margin-left: 20px;
     margin-bottom: 0;
 }
+.credits{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    position: absolute;
+    top: 900px;
+    left: 850px;
+}

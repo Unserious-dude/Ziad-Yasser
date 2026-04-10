@@ -98,3 +98,10 @@ nav a:hover {
     background-color: black;
     color: white;
 }
+.credits{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    position: absolute;
+    top: 900px;
+    left: 850px;
+}

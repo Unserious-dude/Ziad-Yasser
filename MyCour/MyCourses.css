@@ -84,3 +84,10 @@ tr{
     padding-right: 40px;
     padding-top: 15px;
 }
+.credits{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    position: absolute;
+    top: 900px;
+    left: 850px;
+}
