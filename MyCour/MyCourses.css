@@ -7,8 +7,8 @@ body{
     min-height: 90vh;
 }
 .title{
-    display: inline;
     font-family: 'Courier New', Courier, monospace;
+    display: inline;
     border: none;
     margin-top: 0;
     margin-right: 400px;
@@ -20,6 +20,7 @@ nav {
   padding: 15px 20px;
 }
 nav a {
+  font-family: 'Courier New', Courier, monospace;
   display: inline-block;
   color: black;
   border-color: black;
@@ -27,7 +28,6 @@ nav a {
   border-width: 2px;
   text-decoration: none;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 8px;
@@ -40,4 +40,47 @@ nav a:hover {
   cursor: pointer;
   background-color: black;
   color: white;
+}
+.personal{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    top: 130px;
+    left: 300px;
+
+}
+table{
+    background-color: rgba(255, 255, 255, 0.677);
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    width: 700px;
+}
+.thead{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.622);
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+tr{
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 1000px;
+    height: 60px;
+}
+.col1{
+    font-family: 'Courier New', Courier, monospace;
+    min-width: 150px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 15px;
 }
